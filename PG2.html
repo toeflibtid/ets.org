@@ -1,0 +1,179 @@
+<html>
+
+<head>       
+    <title>ETS | Global education and talent solutions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ETS">
+    <meta name="description" content="ETS">
+    <meta name="keywords" content="TOEF, TOEFL iBT">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEUQPUsLMj8NN0U6pMMxi6UGKjUPO0gJLztBtNdQ3P9Lz/gTQ1JAsdRO1v8YT2EbVmcqeZAmcYY0k69Q2v8WSltN0/5EveJT4v9R3f8AFh9Ky/E9qsweXnFP1/82mbcURVMBtGSvAAAA+klEQVR4Aa3RBZLDMAxAUUWJZXaY6f63XLnezqQ41D8QeEEZflOGXywvBH1CqbSxrITwEMqM0XkdCLCs8MFq14iIbSDs+kFcrRm9bsQNsfN+snRR0eheNzNjx+aXB0xarL7dDBs8WNLd9BwbXiWTUs7F3icjITmClDyUc241ybCLR0OZlMrJx5LRaXbv90XeBzO1sXTf6TXvjzUmpBDrtn/LIR5GS8rhaW7P9L5tBB8/zK+L/4d2z1uehoBrdJsLdUZDo59VDmwg1N4GwTod2QWxaHkuaVVEM5r88bE7ICSErBQZPChS/OE2IhC8icI6Mn6IZLDwOYLf9Ado8hG/Et1DBQAAAABJRU5ErkJggg==">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            *{
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+            }
+        body {
+            background-color: rgba(52,53,121,255);
+        }
+        .back {
+            background-color: aqua;
+            margin-left: 20px;
+            margin-right: 25px;
+            
+        }
+        button{
+                background-color: rgb(236, 146, 86);
+                color: rgb(252, 252, 252);
+                padding: 10px;
+                cursor: pointer;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.2em;
+            }
+        button:hover{color: rgb(74, 74, 85);}
+
+        form {
+            background-color: white;
+            border-color: black solid 5px;
+            width: 400px;
+            height: 500px;
+            margin-left: 450px;
+            margin-left: 35%;
+            padding-top: 15px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        input[type="email"],input[type="text"],input[type="number"] {
+            background-color: white;
+            color: black;
+            border: black solid 1px;
+            width: 300px;
+            height: 50px;
+        }
+        input[type="submit"] {
+            background-color: rgb(7, 139, 179);
+            width: 307px;
+            height: 50px;
+            border: solid #4667c9;
+            cursor: pointer;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+        .terms,
+        .conditions {
+            color: blue;
+            text-decoration: none;
+        }
+        input[type="checkbox"] {
+            border: solid 5px black;
+            border-radius: 10px;
+        }
+        .foot {
+            background-color: rgba(26,33,43,255);
+            padding: 20px;
+            color: white;
+        }
+        a {
+            color: white;
+        }
+        .etss {
+            width: 95px;
+            margin-top: 1%;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        
+
+        input{padding-left: 10px; font-size: 1.1em; border-radius: 10px;}
+
+            @media (max-width:1000px){
+                form{margin-left: 30%;}
+            }
+
+            @media (max-width:850px){form{margin-left: 25%;}}
+            @media (max-width:750px){form{margin-left: 20%;}}
+            @media (max-width:600px){form{margin-left: 15%;}}
+            @media (max-width:550px){form{margin-left: 10%;}}
+            
+            @media (max-width:500px){
+                form{
+                margin-left: 0;
+                margin-left: 5%;
+                }
+            }
+            @media (max-width:450px){
+                form{
+                margin-left: 0;
+                margin-left: 1%;
+                }
+            }
+            @media (max-width:430px){
+                form{
+                margin-left: 0;
+                }
+            }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div align="center">
+        <img class="etss" src="https://idaas-ui.ets.org/assets/ets-logo-white.svg" alt="ETS">
+    </div>
+    <div class="back"> 
+        <a href="index.html"  title="Back to Previous Pgae"><button><i class="fa-solid fa-backward"></i></button></a>
+    </div>
+
+    <form action="PG3.html" method="post" align="center" onsubmit="redirectToPage(event)">
+        <h3 align="center">TOEFL Certificate Validation</h3>
+        <h4 align="center">Fill in Details for a Certificate Holder</h4>
+
+        <div class="mix">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Email" required> <br><br>
+        </div>    
+
+        <label for="passport-number">Passport Number</label> <br>
+        <input id="passport-number" type="text" placeholder="Passport Number" required> <br> <br>
+
+        <label for="app-number">Appointment Number</label> <br>
+        <input id="app-number" type="text" placeholder="Appointment Number" required minlength="16" maxlength="16"><br><br>
+
+        <input type="checkbox" name="" id="check" required>
+        <label for="check">I agree to <a href="#" class="terms">Terms</a> & <a href="#" class="conditions">Conditions</a></label><br><br>
+
+        <input type="submit" value="Verify">
+    </form>
+    <br><br>
+
+    <hr>
+
+    <div class="foot">
+        <p align="center">Copyright © 2024 by ETS. All trademarks are the property of their respective owners.</p><br>
+
+        <div align="cenetr">
+            <a href="#">Legal</a> |
+            <a href="#">Privacy & Security</a> |
+            <a href="#">ETS Trademarks</a> |
+            <a href="#">Consumer Health Data Privacy Policy</a> |
+            <a href="#">Title VI Compliance Statement</a> |
+            <a href="#">Cookies Settings</a>
+        </div>
+        <br>
+        <p align="center">Copyright &copy; 2024 by ETS</p>
+    </div>
+
+</body>
+
+</html>
