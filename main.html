@@ -1,0 +1,436 @@
+<html>
+
+    <head>       
+        <title>ETS | Global education and talent solutions</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta name="author" content="ETS">
+        <meta name="description" content="ETS">
+        <meta name="keywords" content="TOEF, TOEFL iBT">
+        <meta name="robots" content="noindex, nofollow">
+        <script></script>
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEUQPUsLMj8NN0U6pMMxi6UGKjUPO0gJLztBtNdQ3P9Lz/gTQ1JAsdRO1v8YT2EbVmcqeZAmcYY0k69Q2v8WSltN0/5EveJT4v9R3f8AFh9Ky/E9qsweXnFP1/82mbcURVMBtGSvAAAA+klEQVR4Aa3RBZLDMAxAUUWJZXaY6f63XLnezqQ41D8QeEEZflOGXywvBH1CqbSxrITwEMqM0XkdCLCs8MFq14iIbSDs+kFcrRm9bsQNsfN+snRR0eheNzNjx+aXB0xarL7dDBs8WNLd9BwbXiWTUs7F3icjITmClDyUc241ybCLR0OZlMrJx5LRaXbv90XeBzO1sXTf6TXvjzUmpBDrtn/LIR5GS8rhaW7P9L5tBB8/zK+L/4d2z1uehoBrdJsLdUZDo59VDmwg1N4GwTod2QWxaHkuaVVEM5r88bE7ICSErBQZPChS/OE2IhC8icI6Mn6IZLDwOYLf9Ado8hG/Et1DBQAAAABJRU5ErkJggg==">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            *{
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+            }
+            body{
+                background-color: rgb(107, 101, 101);
+            }
+            .backk{
+                background-color: aqua;
+                margin-left: 20px;
+                margin-right: 25px;
+            }
+            button{
+                background-color: rgb(236, 146, 86);
+                color: rgb(252, 252, 252);
+                padding: 10px;
+                cursor: pointer;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.2em;
+            }
+            button:hover{color: rgb(74, 74, 85);}
+            .etss{
+                width: 95px;
+                margin-top: 1%;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+            .hrd{
+                background-color: rgba(26,33,43,255);
+                color: white;
+                padding-left: 50px;
+                padding-bottom: 15px;
+                margin-top: 5px;
+                margin-top: 50px;
+                margin: 6px 0;
+                width: 100%;
+                height: 40px;
+
+            }
+            form{
+                background-color: rgb(52, 166, 194);
+                color: white;
+                padding-top: 10px;
+                margin-left: 465px;
+                margin-top: 100px;
+                width: 400px;
+                height: 200px;
+            }
+            .email{
+                background: fixed;
+            }
+            input[type="submit"]{
+                background-color: yellow;
+            }
+            .foot{
+                background-color: rgba(26,33,43,255);
+                padding: 10px;
+                color: white;
+            }
+            a{
+                color: white;
+            }
+
+
+            .container {
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            .bar1, .bar2, .bar3 {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+
+            .change .bar1 {
+                transform: translate(0, 11px) rotate(-45deg);
+            }
+
+            .change .bar2 {opacity: 0;}
+
+            .change .bar3 {
+                transform: translate(0, -11px) rotate(45deg);
+            }
+            .tab{
+                width: 100%;
+                background-color: rgb(97, 194, 194);
+                
+                justify-content: center;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+                
+                padding-left: 10%;
+                
+                
+            }
+            table{
+                background-color: white;
+                color: white;
+                width: 70%;
+                height: 125px;
+                border-radius: 5px solid red;
+                border: 5px;
+                
+            }
+            thead{
+                background-color: rgba(107, 77, 134, 0.555);
+            }
+            tbody{
+                background-color: chartreuse;
+                color: black;
+                text-align: center;
+            }
+
+            .tob{
+                background-color: rgb(228, 32, 58);
+                width: 50%;
+                height: 75px;
+                margin-right: 50%;
+            
+            }
+            .tobthead{
+                background-color: blue;
+            }
+            .tobtbody{
+                background-color: azure;
+                text-align: center;
+            }
+            h3{
+                color: white;
+                background-color: black;
+            }
+            .certi{
+                color: black;
+                background-color: white;
+                width: 50%;
+                margin-right: 40%;
+                
+                margin-bottom: 7px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            
+            .showw{display: flex; margin-left: 15%;}
+            .showw div{ margin-left: 30px; padding: 3px;}
+            .showw div i{ color: rgb(172, 172, 172); margin-right: 3px;}
+            .anone{text-decoration: none; background-color: rgb(39, 4, 43); padding: 5px; border-radius: 10px; display: flex; align-items: center;}
+            .anone:hover{background-color: brown; color: rgb(144, 144, 255);}
+            .showw div i:hover{ color: rgb(144, 144, 255);}
+
+            @media (max-width:500px){
+                
+                .tab{
+                    
+                    padding: 5px;
+                    width: 99%;
+                    margin-left: 1%;
+                    
+                    height:auto;
+                    border-radius: 10px;
+                }
+                .tob{
+                    width: 90%;
+                    
+                }
+
+                table{
+                    margin: 0;
+                    background-color: white;
+                    color: white;
+                    width: 90%;
+                    margin-top: 20px;
+                    border-radius: 5px solid red;
+                    border: 5px;
+                }
+
+                .showw {display: flex;}
+
+                
+
+                .certi{
+                    width: 80%;
+                }
+            }
+
+            @media (max-width:444px){.tab{background-color: rgb(107, 101, 101);}}
+
+            @media (max-width:404px){
+                .tab{
+                    
+                    padding: 5px;
+                    width: 90%;
+                    margin-left: 1%;
+                    height:auto;
+                }
+                .tob{
+                    width: 90%;
+                }
+
+                .table{
+                    margin: 0;
+                    background-color: white(226, 42, 42);
+                    color: white;
+                    width: 20px;
+                    
+                    border-radius: 5px solid red;
+                    border: 5px;
+                }
+                .download{
+                background-color: white;
+                color: black;
+                width: 100px;
+                margin-left: 15px;
+                
+                
+                }
+                .pdf{
+                    width: 30px;
+                    margin-left: 40%;
+                    margin-top: 5px;
+
+                }
+
+                .certi{
+                    width: 80%;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div align="center">
+            <img class="etss" src="https://idaas-ui.ets.org/assets/ets-logo-white.svg" alt="ETS">
+        </div>
+        <div class="backk">
+            <a href="index.html"  title="Back to Previous Pgae"><button><i class="fa-solid fa-backward"></i></button></a>
+        </div>
+
+        <br>
+        <h3 align="center">
+            TOEFL Certificate Validation<br>
+        </h3>
+        <br>
+        <div class="tab" align="cenetr">
+            <p align="cenetr" class="certi">Certificate Details Dispaly</p>
+            <table class="tob">
+                <thead class="tobthead">
+                    <tr class="tobtr">
+                        <th>Full Name</th>
+                        <th>Passport Number/ID</th>
+                        <th>Appoitment Number</th>
+                    </tr>
+                    
+                </thead>
+                <tbody class="tobtbody">
+                    <tr class="tobtr">
+                        <td>Muhammad rajab vethi</td>
+                        <td>xxxxxxxx1112</td>
+                        <td>1571 1395 7830 0114</td>
+                    </tr>
+                </tbody>
+            </table> 
+            <br>
+            <table class="table">
+                <thead >
+                    <tr>
+                        <th>Sections</th>
+                        <th>Reading</th>
+                        <th>Lestening</th>
+                        <th>Speaking</th>
+                        <th>Writing</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Scores</td>
+                        <td>19</td>
+                        <td>21</td>
+                        <td>23</td>
+                        <td>21</td>
+                        <td>84</td>
+                    </tr>
+                    <tr>
+                        <td>120</td>
+                        <td>Out of 30</td>
+                        <td>Out of 30</td>
+                        <td>Out of 30</td>
+                        <td>Out of 30</td>
+                        <td>/120</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div class="showw">
+                <div><a class="anone" href="docs/Muhammad.vth-certificate.pdf" ><i class="fa-solid fa-file-pdf"></i>View</a></div>
+                <div><a class="anone" href="docs/Muhammad.vth-certificate.pdf" target="_blank" ><i class="fa-solid fa-download"></i> Download</a></div>
+            </div>
+            
+        </div>
+        
+        <br> <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <hr>
+        
+        <div class="foot">
+            <p align="center">Copyright © 2024 by ETS. All trademarks are the property of their respective owners.</p><br>
+    
+            <div align="cenetr">
+                <a href="#">Legal</a> |
+                <a href="#">Privacy & Security</a> |
+                <a href="#">ETS Trademarks</a> |
+                <a href="#">Consumer Health Data Privacy Policy</a> |
+                <a href="#">Title VI Compliance Statement</a> |
+                <a href="#">Cookies Settings</a>
+            </div>
+            <br>
+            <p align="center">Copyright &copy; 2024 by ETS</p>
+        </div>
+
+
+
+
+        <div id="loading-screen" class="loading">
+            <div class="spinner"></div>
+        </div>
+
+    </body>
+
+</html>
+
+
+
+<style>
+    /* Basic reset and styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Loading screen styles */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border: 4px solid rgb(255, 123, 123);
+  border-top: 4px solid #fff;
+  border-top: 4px solid rgb(51, 51, 51);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Content styles */
+#content {
+  padding: 20px;
+}
+
+</style>
+
+<script>
+
+// Wait for the DOM content to be loaded
+window.onload = function () {
+  // Check if the user is logged in
+  const isLoggedIn = localStorage.getItem('loggedIn'); // Assuming loggedIn is a key in localStorage
+
+  // If the user is not logged in, redirect to the login page
+  if (!isLoggedIn || isLoggedIn === 'false') {
+    window.location.href = 'index.html'; // Redirect to login page
+  } else {
+    // Start the loading screen timeout (if needed)
+    setTimeout(function () {
+      // Hide the loading screen and display the content
+      document.getElementById("loading-screen").style.display = "none";
+      document.getElementById("content").classList.remove("hidden");
+    }, 5000); // 5000ms = 5 seconds
+  }
+};
+
+
+</script>
